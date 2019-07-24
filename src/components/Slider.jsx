@@ -6,7 +6,8 @@ const IntegerStep = (props) => {
   return (
     <div>
       <Row>
-      <Col style={{marginTop: '10px'}} span={3}><strong>min</strong></Col>
+      <Col style={{marginTop: '10px'}} span={6}><strong></strong></Col>
+      <Col style={{marginTop: '10px'}} span={1}><strong>min</strong></Col>
       <Col span={10}>
         <Slider
           min={1}
@@ -14,7 +15,8 @@ const IntegerStep = (props) => {
           onChange={props.sliderCountChange}
         />
       </Col>
-      <Col style={{marginTop: '10px'}}span={3}><strong>max</strong></Col>
+      <Col style={{marginTop: '10px'}}span={1}><strong>max</strong></Col>
+      <Col style={{marginTop: '10px'}} span={6}><strong></strong></Col>
     </Row>
   </div>
   );

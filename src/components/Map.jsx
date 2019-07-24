@@ -6,7 +6,7 @@ const Map = withScriptjs(withGoogleMap((props) => {
 
   return (
     <GoogleMap
-      defaultZoom={12}
+      defaultZoom={14}
       defaultCenter={{ lat, lng }}
     >
       {drivers && drivers.map(driver => {
