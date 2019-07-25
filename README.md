@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 ### .env for API KEY
 
 You will need to create a .env file in the root folder with your Google Map API key.<br> 
-Please use REACT_APP_GOOGLE_MAPS_API_KEY="your_api_key_here"
+Please update with your API key REACT_APP_GOOGLE_MAPS_API_KEY="your_api_key_here"
 
 
 ### CORS
